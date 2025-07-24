@@ -58,7 +58,6 @@ node deploy.js
 Isso irá:
 
 1. Executar `node deploy.js` para registrar comandos
-2. Iniciar o bot com `node index.js`
 
 Execute:
 
