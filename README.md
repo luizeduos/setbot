@@ -18,11 +18,13 @@ Este é um bot de Discord que permite que membros solicitem “sets” através 
 
 ```
 .
-├── commands/                # Seus comandos separados (cada um como um módulo)
-├── index.js                 # Arquivo principal do bot
-├── deploy.js                # Registro automático de comandos
-├── .env                     # Variáveis de ambiente (token, client_id, etc.)
-└── README.md
+├── commands/ # Comandos slash separados
+├── events/ # Eventos (como interactionCreate, ready, etc.)
+├── utils/ # Utilitários como checkPermission)
+├── index.js # Arquivo principal do bot
+├── deploy.js # Registro automático de comandos slash
+├── .env # Variáveis de ambiente (token, client_id, etc.)
+└── README.md # Este arquivo
 ```
 
 ---
