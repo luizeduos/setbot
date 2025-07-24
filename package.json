@@ -1,0 +1,12 @@
+{
+  "name": "set-bot",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.1"
+  },
+  "scripts": {
+    "start": "node deploy.js && node index.js"
+  }
+}
